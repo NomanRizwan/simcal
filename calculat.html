@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noman-Calculator</title>
+    <link rel="stylesheet" href="calculat.css">
+</head>
+
+<body>
+<div id="main">
+        <div class="calculator">
+        <h2 class="design">M Noman <br> Calculator</h2>
+        <div> 
+            <input  type="text" id="input" disabled >
+
+        </div>
+    
+
+        <div>
+            <button  onclick="cleanin()">AC</button>
+            <button onclick=" backspace()">del</button>
+            <button onclick="get('/')">&#247;</button>
+            <button onclick="get('*')">&times;</button>
+        </div>
+
+        <div>
+            <button class="wt" onclick="get('7')">7</button>
+            <button class="wt" onclick="get('8')">8</button>
+            <button class="wt" onclick="get('9')">9</button>
+            <button onclick=" per('%')">%</button>
+
+        </div>
+
+        <div>
+            <button class="wt" onclick="get('4')">4</button>
+            <button class="wt" onclick="get('5')">5</button>
+            <button class="wt" onclick="get('6')">6</button>
+            <button onclick="get('-')">-</button>
+        </div>
+
+        <div>
+            <button class="wt" onclick="get('1')">1</button>
+            <button class="wt" onclick="get('2')">2</button>
+            <button class="wt" onclick="get('3')">3</button>
+            <button onclick="get('+')">+</button>
+        </div>
+
+        <div>
+            <button class="wt" onclick="get('00')">00</button>
+            <button class="wt" onclick="get('0')">0</button>
+            <button class="wt" onclick="get('.')">.</button>
+            <button onclick=" equal()">=</button>
+        </div>
+
+    </div><!--calculator -->
+</div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
